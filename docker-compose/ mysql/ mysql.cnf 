@@ -1,0 +1,15 @@
+[mysqld]
+# Enable general logging
+general_log = 1
+general_log_file = /var/lib/mysql/general.log
+
+# SSL/TLS configuration (modify as needed)
+# Disable SSL/TLS
+# ssl-ca=""
+# ssl-cert=""
+# ssl-key=""
+
+# Enable SSL/TLS (provide actual paths if needed)
+# ssl-ca=/path/to/ca-cert.pem
+# ssl-cert=/path/to/server-cert.pem
+# ssl-key=/path/to/server-key.pem
